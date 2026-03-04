@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "Header Storybook",
-    "slug": "header-storybook",
+    "name": "header-rn-storybook",
+    "slug": "header-rn-storybook",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,20 +16,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.murilo_frank.headerstorybook",
-      "usesCleartextTraffic": true
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "7f6d7e05-fb4e-47e3-8348-ef5bfe4fc4dc"
-      }
     }
   }
 }
